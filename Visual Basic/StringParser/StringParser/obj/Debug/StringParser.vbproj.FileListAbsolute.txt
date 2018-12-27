@@ -1,0 +1,12 @@
+C:\Users\timmy\source\repos\StringParser\StringParser\bin\Debug\StringParser.exe.config
+C:\Users\timmy\source\repos\StringParser\StringParser\bin\Debug\StringParser.exe
+C:\Users\timmy\source\repos\StringParser\StringParser\bin\Debug\StringParser.pdb
+C:\Users\timmy\source\repos\StringParser\StringParser\bin\Debug\StringParser.xml
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.vbprojAssemblyReference.cache
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.Form1.resources
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.Resources.resources
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.vbproj.GenerateResource.cache
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.vbproj.CoreCompileInputs.cache
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.exe
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.xml
+C:\Users\timmy\source\repos\StringParser\StringParser\obj\Debug\StringParser.pdb
