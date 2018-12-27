@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS4443 XTIB-18T4 Group Homework 7</title>
+    <link rel="stylesheet" href="css/billboard.css"> <!-- Julian Jackson -->
+    <link rel="stylesheet" type="text/css" href="css/trwstyle.css"> <!-- Timothy Waters -->
+    <link rel="stylesheet" href="css/rolloverstyle.css"> <!-- Jonathan Collins -->
+    <link rel="stylesheet" href="css/about.css"> <!-- Jonathan Collins -->
+    <link rel="stylesheet" href="css/footer.css"> <!-- Julian Jackson -->
+    <!-- This is the style link for the menu. -->
+    <link rel = "stylesheet" type = "text/css" href = "css/menustyles.css"><!-- Richard Freeman -->
+    <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+</head>
+<body>
+<!-- This is the menu. -->
+<!-- Begin Richard Freeman CS4443XTIB 18T4 -->
+<div class = "mymenu">
+    <ul>
+        <li>CS 4443 XTIB<br>Group Project</li>
+	<li><a href = "#billboard">Home</a></li>
+        <li><a href = "#rollover">Rollover Gallery</a></li>  <!-- Jonathan Collins -->
+        <li><a href = "#gallery">Gallery</a></li>
+        <li><a href = "#about">About</a></li>
+    </ul>
+</div>
+<!-- End Richard Freeman -->
+	
+<!-- Begin Julian Jackson CS4443XTIB-18T4-->
+<section id="billboard">
+    <div class="billboard-video-container">
+        <canvas id="billboard-canvas"></canvas>
+        <!-- video downloaded from coverr.co https://coverr.co/s3/zip/Red.zip -->
+        <video autoplay loop muted preload playsinline id="billboard-video">
+            <source src="assets/Red.webm" type="video/webm">
+            <source src="assets/Red.mp4" type="video/mp4">
+            <source src="assets/Red.ogg" type="video/ogg">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="billboard-overlay-bg"></div>
+        <div class="billboard-overlay-content">
+            <h1>CS4443</h1>
+            <p>XTIB-18T4 Homework 7</p>
+        </div>
+
+    </div>
+</section>
+<!-- End Julian Jackson -->
+
+
+
+<!-- Begin Timothy Waters -->
+<!-- Images used to open the lightbox -->
+<div class="parallax"></div>
+<div id="gallery">
+		<h1 class="center">Gallery</h1>
+		<div class="row center">
+		  <div class="column">
+			<img src="assets/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+		  </div>
+		  <div class="column">
+			<img src="assets/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+		  </div>
+		  <div class="column">
+			<img src="assets/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		  </div>
+		  <div class="column">
+			<img src="assets/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+		  </div>
+		</div>
+		<div class="row center">
+		  <div class="column">
+			<img src="assets/img5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+		  </div>
+		  <div class="column">
+			<img src="assets/img6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+		  </div>
+		  <div class="column">
+			<img src="assets/img7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+		  </div>
+		  <div class="column">
+			<img src="assets/img8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+		  </div>
+		</div>
+
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+
+			<div class="mySlides">
+			  <div class="numbertext">1 / 8</div>
+			  <img class="center" src="assets/img1_wide.jpg">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">2 / 8</div>
+			  <img class="center" src="assets/img2_wide.jpg" >
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">3 / 8</div>
+			  <img class="center" src="assets/img3_wide.jpg">
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">4 / 8</div>
+			  <img class="center" src="assets/img4_wide.jpg">
+			</div>
+			
+			<div class="mySlides">
+			  <div class="numbertext">5 / 8</div>
+			  <img class="center" src="assets/img5_wide.jpg">
+			</div>
+			
+			<div class="mySlides">
+			  <div class="numbertext">6 / 8</div>
+			  <img class="center" src="assets/img6_wide.jpg">
+			</div>
+			
+			<div class="mySlides">
+			  <div class="numbertext">7 / 8</div>
+			  <img class="center" src="assets/img7_wide.jpg">
+			</div>
+			
+			<div class="mySlides">
+			  <div class="numbertext">8 / 8</div>
+			  <img class="center" src="assets/img8_wide.jpg">
+			</div>
+
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<!-- Caption text -->
+			<div class="caption-container">
+			  <p id="caption"></p>
+			</div>
+
+			<!-- Thumbnail image controls -->
+			<div class="column">
+			  <img class="demo" src="assets/img1.jpg" onclick="currentSlide(1)" alt="Cloudy">
+			</div>
+
+			<div class="column">
+			  <img class="demo" src="assets/img2.jpg" onclick="currentSlide(2)" alt="Yay!">
+			</div>
+
+			<div class="column">
+			  <img class="demo" src="assets/img3.jpg" onclick="currentSlide(3)" alt="Nature 1">
+			</div>
+
+			<div class="column">
+			  <img class="demo" src="assets/img4.jpg" onclick="currentSlide(4)" alt="Dramatic">
+			</div>
+			
+			<div class="column">
+			  <img class="demo" src="assets/img5.jpg" onclick="currentSlide(5)" alt="Sunny Clouds">
+			</div>
+			
+			<div class="column">
+			  <img class="demo" src="assets/img6.jpg" onclick="currentSlide(6)" alt="Birthday Fun">
+			</div>
+			
+			<div class="column">
+			  <img class="demo" src="assets/img7.jpg" onclick="currentSlide(7)" alt="Nature 2">
+			</div>
+			
+			<div class="column">
+			  <img class="demo" src="assets/img8.jpg" onclick="currentSlide(8)" alt="Sunny Day">
+			</div>
+		  </div>
+		</div>
+</div>
+
+<div class="parallax2">
+	<div class="thanks">
+		<h1 class="center">Thank you for stopping by!</h1>
+	</div>
+</div>
+<!-- End Timothy Waters -->
+
+<!-- Begin Jonathan Collins -->
+<section id="rollover">
+     <div class="pics">
+          <h1>Rollover Gallery</h1>
+          <div class="photo">
+               <a href="#"><img src="assets/baby.jpg" onmouseover="this.src='assets/babyBefore.jpg'"
+		  onmouseout="this.src='assets/baby.jpg'"></a>
+          </div>
+
+          <div class="photo">
+               <a href="#"><img src="assets/teaPartyAfter.jpg" onmouseover="this.src='assets/teaPartyBefore.jpg'"
+		  onmouseout="this.src='assets/teaPartyAfter.jpg'"></a>
+          </div>
+
+          <div class="photo">
+               <a href="#"><img src="assets/tricycleAfter.jpg" onmouseover="this.src='assets/tricycleBefore.jpg'"
+		  onmouseout="this.src='assets/tricycleAfter.jpg'"></a>
+          </div>
+
+          <div class="photo">
+               <a href="#"><img src="assets/zebra.jpg" onmouseover="this.src='assets/zebraBefore.jpg'"
+		onmouseout="this.src='assets/zebra.jpg'"></a>
+         </div>
+      </div>
+   </section>
+<!-- End Jonathan Collins -->
+
+<!-- Begin Jonathan Collins -->
+<section id="about">
+
+    <div class="backimg">
+          <h1>This page was made by Julian Jackson, Richard Freeman, Timothy Waters, and Jonathan Collins.</h1>
+    </div>     
+   </section>
+<!-- End Jonathan Collins -->
+<!-- Begin Julian Jackson -->
+    <section id="footer">
+        <!-- image from https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf -->
+    <img src="assets/keys.jpeg" width="1024" height="227" border="0" usemap="#map" />
+    <!-- Image maps are on the four keys of the keyboard -->
+    <map name="map">
+        <area alt="F Key" shape="poly" coords="216,2,2,100,2,222,227,224" href="#footer" onclick="play_notes(this.id);" id="note_f"/>
+        <area alt="G Key"  shape="poly" coords="239,224,258,195,294,195,393,1,475,2,427,197,499,199,500,223" href="#footer" onclick="play_notes(this.id);" id="note_g"  />
+        <area alt="A Key"  shape="poly" coords="518,223,519,197,591,197,570,2,661,3,724,197,759,199,772,224" href="#footer" onclick="play_notes(this.id);" id="note_a"  />
+        <area alt="B Key"  shape="poly" coords="789,224,782,197,888,196,860,159,842,38,808,3,848,3,1023,194,1023,223" href="#footer" onclick="play_notes(this.id);" id="note_b"  />
+    </map>
+	<audio id="audio_note_f" src="assets/f.mp3"></audio>
+	<audio id="audio_note_g" src="assets/g.mp3"></audio>
+	<audio id="audio_note_a" src="assets/a.mp3"></audio>
+	<audio id="audio_note_b" src="assets/b.mp3"></audio>
+	
+    </section>
+<!-- End Julian Jackson -->
+
+<script src="js/footer.js"></script> <!-- Julian Jackson -->
+<script src="js/billboard.js"></script> <!-- Julian Jackson -->
+<script src="js/trwscript.js"></script> <!-- Timothy Waters -->
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,27 @@
+<!-- css stylesheet for rollover gallery -->
+<!-- Jonathan Collins -->
+
+#rollover{
+  padding: 15px;
+}
+
+.pics {
+  position: relative;
+  text-align: center;
+  overflow: auto;
+}
+
+.photo {
+  float: left;
+  width: 25%;
+}
+
+#rollover h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: .1rem;
+    text-align: center;
+    padding-bottom: 10px;
+    background: none;
+}

@@ -1,0 +1,30 @@
+/* menustyles.css */
+/* Style sheet for the menu by Richard Freeman */
+/* The "position: fixed" in the mymenu class is what keeps it in view as you scroll. */
+/* Remove it if you want it to be stationary.*/
+         div.mymenu               { width: 100%;
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;}
+         ul                       { width: 100%;
+                                    margin: 0;
+                                    padding: 0;
+                                    font-family: sans-serif;
+                                    background: darkslategray;}
+         ul li                    { list-style: none;
+                                    display: inline-block;
+                                    color: white;
+                                    text-align: center;
+                                    min-width: 70 px; }
+         ul li a                  { display: inline-block;
+                                    color: white;
+                                    font-family: sans-serif;
+                                    font-size: x-large;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    padding: 10px 10px;
+                                    min-width: 70 px; }
+         ul li a:hover            { color: darkslategray;
+                                    text-decoration: none; 
+                                    background-color: white; }
+                                      
