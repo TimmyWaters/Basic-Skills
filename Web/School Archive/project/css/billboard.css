@@ -1,0 +1,56 @@
+/* Julian Jackson CS4443XTIB-18T4 */
+
+.billboard-video-container {
+    position: relative;
+}
+
+video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+    opacity: .9;
+
+}
+.billboard-overlay-content {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 80%;
+
+}
+
+.billboard-overlay-bg {
+    background: #000;
+    opacity: .4;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#billboard h1{
+    font-family: sans-serif;
+    margin-top:300px;
+    margin-bottom: 1px;
+    color: white;
+    font-size: 7vw;
+    text-align: right;
+
+}
+#billboard p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: .1rem;
+    text-align: right;
+}
+
+
+#billboard-canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+

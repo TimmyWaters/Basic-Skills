@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Week 3 Part 1</title>
+		<script>
+			function start()
+			{
+				var cBtn = document.getElementById("toCButton");
+				var fBtn = document.getElementById("toFButton");
+				cBtn.addEventListener("click", toCelcius, false);
+				fBtn.addEventListener("click", toFahrenheit, false);
+			}
+			
+			function toCelcius()
+			{
+				var inputNum = document.getElementById("degreesInput");
+				var input = parseFloat(inputNum.value);
+				document.getElementById("result").innerHTML = input + " converted to Celcius is: " + (5/9) * (input-32);
+				
+			}
+			
+			function toFahrenheit()
+			{
+				var inputNum = document.getElementById("degreesInput");
+				var input = parseFloat(inputNum.value);
+				document.getElementById("result").innerHTML = input + " converted to Fahrenheit is: " + (((9/5) * input) + 32);
+			}
+			
+			window.addEventListener("load", start, false);
+		</script>
+	</head>
+	<body>
+		<form action="#">
+			<p>
+				<label>Degrees to convert: 
+					<input id="degreesInput" type="number">
+				</label>
+				<input id="toCButton" type="button" value="Convert to Celcius">
+				<input id="toFButton" type="button" value="Convert to Fahrenheit">
+			</p>
+		</form>
+		<p id="result"></p>
+	</body>
+</html>

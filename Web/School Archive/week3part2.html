@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Week 3 Part 1</title>
+		<script>
+			function start()
+			{
+				var calButton = document.getElementById("calBtn");
+				calButton.addEventListener("click", displayResult, false);
+			}
+			
+			function displayResult()
+			{
+				var base = parseInt(document.getElementById("base").value);
+				var exponent = parseInt(document.getElementById("exponent").value);
+				var result = document.getElementById("result");
+				result.innerHTML = base + " raised to the power " + exponent + " is " + power(base, exponent);
+			}
+			
+			function power(base, exponent)
+			{
+				if (exponent == 0)
+				{
+					return 1;
+				}
+				else
+				{
+					return base * power(base, exponent-1);
+				}
+			}
+			
+			window.addEventListener("load", start, false);
+		</script>
+	</head>
+	<body>
+		<form action="#">
+			<p>
+				<label for="base">Enter base: 
+					<input id="base" type="number">
+				</label>
+				<label for="exponent">
+					Enter exponent: 
+					<input id="exponent" type="number">
+				</label>
+				<input id="calBtn" type="button" value="Calculate">
+			</p>
+		</form>
+		<p id="result"></p>
+	</body>
+</html>

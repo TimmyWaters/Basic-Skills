@@ -1,0 +1,50 @@
+<?xml version = "1.0"?>
+<cookies>
+	<title>Grandma White's Cookies</title>
+	<nutrition>
+		<serving>
+			<amount>1</amount>
+			<unit>package</unit>
+		</serving>
+		<perserving>
+			<calories>
+				<amount>260</amount>
+			</calories>
+			<fatcalories>
+				<amount>100</amount>
+			</fatcalories>
+			<fat>
+				<amount>11</amount>
+				<unit>grams</unit>
+			</fat>
+			<saturatedfat>
+				<amount>2</amount>
+				<unit>grams</unit>
+			</saturatedfat>
+			<cholesterol>
+				<amount>5</amount>
+				<unit>milligrams</unit>
+			</cholesterol>
+			<sodium>
+				<amount>210</amount>
+				<unit>milligrams</unit>
+			</sodium>
+			<carbohydrates>
+				<amount>36</amount>
+				<unit>grams</unit>
+			</carbohydrates>
+			<fiber>
+				<amount>2</amount>
+				<unit>grams</unit>
+			</fiber>
+			<sugars>
+				<amount>15</amount>
+				<unit>grams</unit>
+			</sugars>
+			<protein>
+				<amount></amount>
+				<unit></unit>
+			</protein>
+		</perserving>
+	</nutrition>
+</cookies>

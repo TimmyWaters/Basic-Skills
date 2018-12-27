@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Ex. 6.19</title>
+		<script>
+			function start()
+			{
+				var button = document.getElementById("calculate");
+				button.addEventListener("click", showResults, false);
+			}
+			
+			function showResults()
+			{
+				var radius = parseFloat(document.getElementById("inputRadius").value);
+				var result = document.getElementById("result");
+				result.innerHTML = "Circle's Measurements:<br>Diameter: " + (radius * 2) + "<br>Circumference: " + (2 * radius * Math.PI) + "<br>Area: " + (Math.PI * radius * radius);
+			}
+			
+			window.addEventListener("load", start, false);
+		</script>
+	</head>
+	<body>
+		<form action="#">
+			<p>
+				<label>Input radius of circle: 
+					<input id="inputRadius" type="number">
+				</label>
+				<input id="calculate" type="button" value="Calculate">
+			</p>
+		</form>
+		<p id="result"></p>
+	</body>
+</html>
