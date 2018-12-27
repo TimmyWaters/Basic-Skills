@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\bin\Debug\Trivia Project.exe.config
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\bin\Debug\Trivia Project.exe
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\bin\Debug\Trivia Project.pdb
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\bin\Debug\Trivia Project.xml
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia Project.vbprojAssemblyReference.cache
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia_Project.MainForm.resources
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia_Project.Resources.resources
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia Project.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia Project.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia Project.exe
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia Project.xml
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\obj\Debug\Trivia Project.pdb
+\\Mac\Home\Documents\School\Term 2\CS 3347\Week 7\Trivia Solution-Case Project\Trivia Project\bin\Debug\Trivia.accdb
