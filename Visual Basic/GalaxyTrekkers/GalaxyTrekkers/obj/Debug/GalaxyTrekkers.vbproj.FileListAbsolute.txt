@@ -1,0 +1,12 @@
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.vbprojAssemblyReference.cache
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.Form1.resources
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.Resources.resources
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.vbproj.GenerateResource.cache
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.vbproj.CoreCompileInputs.cache
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\bin\Debug\GalaxyTrekkers.exe.config
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\bin\Debug\GalaxyTrekkers.exe
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\bin\Debug\GalaxyTrekkers.pdb
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\bin\Debug\GalaxyTrekkers.xml
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.exe
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.xml
+C:\Users\timmy\source\repos\GalaxyTrekkers\GalaxyTrekkers\obj\Debug\GalaxyTrekkers.pdb

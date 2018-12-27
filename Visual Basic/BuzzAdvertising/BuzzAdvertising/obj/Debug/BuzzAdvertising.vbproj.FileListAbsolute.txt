@@ -1,0 +1,12 @@
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\bin\Debug\BuzzAdvertising.exe.config
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\bin\Debug\BuzzAdvertising.exe
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\bin\Debug\BuzzAdvertising.pdb
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\bin\Debug\BuzzAdvertising.xml
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.vbprojAssemblyReference.cache
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.Form1.resources
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.Resources.resources
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.vbproj.GenerateResource.cache
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.vbproj.CoreCompileInputs.cache
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.exe
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.xml
+C:\Users\timmy\source\repos\BuzzAdvertising\BuzzAdvertising\obj\Debug\BuzzAdvertising.pdb
