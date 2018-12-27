@@ -1,0 +1,13 @@
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\bin\Debug\AirplaneSeating.exe.config
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\bin\Debug\AirplaneSeating.exe
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\bin\Debug\AirplaneSeating.pdb
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\bin\Debug\AirplaneSeating.xml
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.vbprojAssemblyReference.cache
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.Form1.resources
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.Resources.resources
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.vbproj.GenerateResource.cache
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.vbproj.CoreCompileInputs.cache
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.exe
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.xml
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.pdb
+C:\Users\timmy\source\repos\AirplaneSeating\AirplaneSeating\obj\Debug\AirplaneSeating.Form2.resources
