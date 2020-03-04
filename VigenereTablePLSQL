@@ -1,0 +1,53 @@
+SET SERVEROUTPUT ON;
+
+DECLARE
+    type arrX is table of integer;
+    type arry is table of arrX;
+    testarr arrY := arrY();
+    outline varchar2(500);
+    i integer := 0;
+    k integer := 0;
+    Yborder varchar2(200) := '';
+    
+BEGIN
+    for p in 1 .. 54 loop
+        Yborder := Yborder || '=';
+    end loop;
+    for x in 1 .. 27 loop
+        
+        if x = 1
+            then
+                outline := '0 ';
+            else
+                outline := CHR(x+63) || '|';
+        end if;
+        
+        testarr.extend;
+        testarr(x) := arrX();
+        i := x+63;
+        
+        if x > 1
+        then
+            i := x + 62;
+        end if;
+        
+        if x = 2
+        then
+            DBMS_OUTPUT.put_line(Yborder);
+        end if;
+        
+        for y in 1 .. 26 loop
+            testarr(x).extend;
+            testarr(x)(y) := y;
+            k := MOD(testarr(x)(y)+i, 65)+65;
+            if k > 90
+            then
+                k := k-26;
+            end if;
+            outline := outline || ' ' || CHR(k);
+        end loop;
+        
+        DBMS_OUTPUT.put_line(outline);
+    end loop;
+END;
+/
